@@ -1,3 +1,4 @@
 *.dSYM
 !*.c
 !Makefile
+.vscode
