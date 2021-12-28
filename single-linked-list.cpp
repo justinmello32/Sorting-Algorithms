@@ -4,10 +4,10 @@ using namespace std;
 
 /* Classes */
 class Node {
-public: 
 
-int data;
-Node* next;
+public: 
+    int data;
+    Node* next;
              
 };
 
