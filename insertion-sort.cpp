@@ -30,7 +30,7 @@ void printArray(int array[], int arraySize) {
 }
 
 int main() { 
-    int array[] = {3, 5, 4, 1};
+    int array[] = {50, 40, 20, 19, 25, 26, 63, 75, 9, 3, 5, 6, 1};
     int arraySize = sizeof(array)/sizeof(array[0]);
 
     insertionSort(array, arraySize);
