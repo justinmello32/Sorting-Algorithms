@@ -18,9 +18,8 @@ void selectionSort(int array[], int arraySize) {
         for(int j =  i+1; j < arraySize; j++) {
             if(array[j] < array[min_index])
                 min_index = j;
-
-            swapItem(&array[min_index], &array[i]);
         }
+        swapItem(&array[min_index], &array[i]);
     }
 }
 
@@ -34,7 +33,7 @@ void printArray(int arr[], int size) {
 /* Main */
 int main() {
 
-    int array[] = {30, 20, 10};
+    int array[] = {30, 20, 10, 15, 25, 35, 5, 2, 3};
     int arraySize = sizeof(array)/sizeof(array[0]);
     
     selectionSort(array, arraySize);
