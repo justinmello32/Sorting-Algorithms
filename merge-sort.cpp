@@ -19,8 +19,8 @@ void merge(int array[], int const left, int const mid, int const right)
     for (int j = 0; j < subArrayTwo; j++)
         rightArray[j] = array[mid + 1 + j];
   
-    int indexOfSubArrayOne = 0, // Initial index of first sub-array
-        indexOfSubArrayTwo = 0; // Initial index of second sub-array
+    int indexOfSubArrayOne = 0; // Initial index of first sub-array
+    int indexOfSubArrayTwo = 0; // Initial index of second sub-array
     int indexOfMergedArray = left; // Initial index of merged array
   
     // Merge the temp arrays back into array[left..right]
